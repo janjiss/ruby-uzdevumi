@@ -5,11 +5,15 @@
 Uzdevumā ir jāizveido klase, kurai padodo koordinat lat,lng formātā ir iespējams noteikt pilsētu, valsi, ielu un distanci līdz šai pilsētai, padodot kooridnātes
 
 <b>Ieejas dati</b> : lat, lng koodrināes
+
 <b>Izejas dati</b> : Klasei jāatgriež sekojošās vērtības ar sekojošiem atribūtiem:
 
 .city  - Pilsēla, kuras koordinātes ir norādīas
+
 .country - Valsts, kuras koordinātes ir norādīas
+
 .street - Iela, kuras koordinātes ir norādīas
+
 .distance_to(lat,lng) - Attālums no lat,lng punkta līdz pilsētai, kura ir norādīta inicializācijas brīdī
 
 == Paskaidrojumi:
