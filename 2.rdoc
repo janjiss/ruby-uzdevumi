@@ -1,0 +1,32 @@
+= Uzdevums 2: Ārējā ģeokodēšanas bibliotēka
+
+== Uzedvuma mērķis
+
+= Uzdevuma mērķis
+Uzdevumā ir jāizveido klase, kurai padodo koordinat lat,lng formātā ir iespējams noteikt pilsētu, valsi, ielu un distanci līdz šai pilsētai, padodot kooridnātes
+
+<b>Ieejas dati</b> : lat, lng koodrināes
+<b>Izejas dati</b> : Klasei jāatgriež sekojošās vērtības ar sekojošiem atribūtiem:
+
+.city  - Pilsēla, kuras koordinātes ir norādīas
+.country - Valsts, kuras koordinātes ir norādīas
+.street - Iela, kuras koordinātes ir norādīas
+.distance_to(lat,lng) - Attālums no lat,lng punkta līdz pilsētai, kura ir norādīta inicializācijas brīdī
+
+== Paskaidrojumi:
+
+<b>Ārējā gema (bibliotēkas) pieslēgšana</b>
+Lai pieslēgtu ārējo gemu, jeb bibliotēku, sākumā tas ir jāuzinsalē:
+
+  gem insall geocoder
+
+<b>Lai iekļauu visas biblioēkas klases savā ruby failā, ir jāveic šī darbība:</b>
+
+  requre "geocoder"
+
+<b>Lai izsauktu ārējo klasi:</b>
+
+ Geocoder.coordinates("Kuldiga")
+ => [56.9759104, 21.9569635] 
+
+Šī konkrētā darbība atgriezīs koordināes, kurās atrodas Kuldīga
