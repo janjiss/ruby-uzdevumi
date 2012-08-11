@@ -16,18 +16,18 @@
 * Klases nodefinēšana izskatās šādi: *
 
 
-class someClass
-end
+  class someClass
+  end
 
 * Klases inicializācija: * 
 
 Inicializēšanas brīdī someClass.new ir iespējams padot argumentus metodei initialize. Piemēram:
 
-class someClass
-  def initialize(argument)
-   
+  class someClass
+    def initialize(argument)
+     
+    end
   end
-end
 
 Tagad mēs varam inicializēt klasi ar argumentu someClass.new(argument).
 
@@ -37,21 +37,21 @@ Lai visā klasē varētu izmantot padoto argumentu, tad tam ir jābūt instance 
 
 Piemēram:
 
-class someClass
-  def initialize(argument)
-    @argument = argument
-  end
+  class someClass
+    def initialize(argument)
+      @argument = argument
+    end
 
-  def some_method
-    @argument
+    def some_method
+      @argument
+    end
   end
-end
 
 * Tad tagad uztaisot jaunu klasi: *
 
-some_class = someClass.new(“hello”)
+  some_class = someClass.new(“hello”)
 
-some_class.some_method izvadīs vārdu “hello”
+  some_class.some_method izvadīs vārdu “hello”
 
 šajā piemērā arī ļot labi redzams tas kā strāda klases metodes.
 
