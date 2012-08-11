@@ -18,8 +18,7 @@ Uzdevumā ir jāizveido klase, kurai padodo koordinat lat,lng formātā ir iesp�
 
 == Paskaidrojumi:
 
-<b>Ārējā gema (bibliotēkas) pieslēgšana</b>
-Lai pieslēgtu ārējo gemu, jeb bibliotēku, sākumā tas ir jāuzinsalē:
+<b>Lai pieslēgtu ārējo gemu, jeb bibliotēku, sākumā tas ir jāuzinsalē:</b>
 
   gem insall geocoder
 
