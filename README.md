@@ -1,1 +1,0 @@
-= Ruby uzdevumi programmētājiem
