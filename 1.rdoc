@@ -2,9 +2,9 @@
 
 == Uzdevuma mērķis
 
-*Ieejas dati* : Izveidot klasi, kurai inicializēšanas brīdī tiek padots blāķis ar tekstu.
+*Ieejas dati*:: : Izveidot klasi, kurai inicializēšanas brīdī tiek padots blāķis ar tekstu.
 
-*Izejas dati* : Klasei jāatgriež sekojošās vērtības ar sekojošiem atribūtiem:
+*Izejas dati*:: : Klasei jāatgriež sekojošās vērtības ar sekojošiem atribūtiem:
 .word_count  - šis atgriež visu vārdu skaitu
 .word_count(“vards”) - šis atgriež konkrētā vārda daudzumu tekstā, piemērm, ja vards “vards” tekstā ir pieminēts 3 reizes, tad šī metode atgriež 3
 .words - atgriež arrayu ar visiem vārdiem
@@ -13,13 +13,13 @@
 == Paskaidrojumi:
 
 
-*Klases nodefinēšana izskatās šādi:*
+*Klases nodefinēšana izskatās šādi:*::
 
 
   class someClass
   end
 
-*Klases inicializācija:*
+*Klases inicializācija:*::
 
 Inicializēšanas brīdī someClass.new ir iespējams padot argumentus metodei initialize. Piemēram:
 
@@ -31,7 +31,7 @@ Inicializēšanas brīdī someClass.new ir iespējams padot argumentus metodei i
 
 Tagad mēs varam inicializēt klasi ar argumentu someClass.new(argument).
 
-*Arguments, kurš ir pieejams visā klasē:*
+*Arguments, kurš ir pieejams visā klasē:*::
 
 Lai visā klasē varētu izmantot padoto argumentu, tad tam ir jābūt instance variable, jeb ar @ zīmi
 
@@ -47,7 +47,7 @@ Piemēram:
     end
   end
 
-*Tad tagad uztaisot jaunu klasi:*
+*Tad tagad uztaisot jaunu klasi:*::
 
   some_class = someClass.new(“hello”)
 
