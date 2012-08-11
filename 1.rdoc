@@ -1,4 +1,4 @@
-= Ruby uzdevums programmētājiem:
+= Uzdevums 1: Klases
 
 == Uzdevuma mērķis
 
