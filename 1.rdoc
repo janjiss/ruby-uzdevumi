@@ -2,7 +2,7 @@
 
 == Uzdevuma mērķis
 
-*Ieejas* dati : Izveidot klasi, kurai inicializēšanas brīdī tiek padots blāķis ar tekstu.
+*Ieejas dati* : Izveidot klasi, kurai inicializēšanas brīdī tiek padots blāķis ar tekstu.
 
 Izejas dati : Klasei jāatgriež sekojošās vērtības ar sekojošiem atribūtiem:
 .word_count  - šis atgriež visu vārdu skaitu
