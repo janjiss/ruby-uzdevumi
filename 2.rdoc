@@ -2,7 +2,6 @@
 
 == Uzedvuma mērķis
 
-= Uzdevuma mērķis
 Uzdevumā ir jāizveido klase, kurai padodo koordinat lat,lng formātā ir iespējams noteikt pilsētu, valsi, ielu un distanci līdz šai pilsētai, padodot kooridnātes
 
 <b>Ieejas dati</b> : lat, lng koodrināes
