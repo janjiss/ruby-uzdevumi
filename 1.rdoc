@@ -1,0 +1,58 @@
+= Ruby uzdevums programmētājiem:
+
+== Uzdevuma mērķis
+
+* Ieejas dati * : Izveidot klasi, kurai inicializēšanas brīdī tiek padots blāķis ar tekstu.
+
+* Izejas dati * : Klasei jāatgriež sekojošās vērtības ar sekojošiem atribūtiem:
+.word_count  - šis atgriež visu vārdu skaitu
+.word_count(“vards”) - šis atgriež konkrētā vārda daudzumu tekstā, piemērm, ja vards “vards” tekstā ir pieminēts 3 reizes, tad šī metode atgriež 3
+.words - atgriež arrayu ar visiem vārdiem
+
+
+== Paskaidrojumi:
+
+
+* Klases nodefinēšana izskatās šādi: *
+
+
+class SomeClass
+end
+
+* Klases inicializācija: * 
+
+Inicializēšanas brīdī SomeClass.new ir iespējams padot argumentus metodei initialize. Piemēram:
+
+class SomeClass
+  def initialize(argument)
+   
+  end
+end
+
+Tagad mēs varam inicializēt klasi ar argumentu SomeClass.new(argument).
+
+* Arguments, kurš ir pieejams visā klasē: *
+
+Lai visā klasē varētu izmantot padoto argumentu, tad tam ir jābūt instance variable, jeb ar @ zīmi
+
+Piemēram:
+
+class SomeClass
+  def initialize(argument)
+    @argument = argument
+  end
+
+  def some_method
+    @argument
+  end
+end
+
+* Tad tagad uztaisot jaunu klasi: *
+
+some_class = SomeClass.new(“hello”)
+
+some_class.some_method izvadīs vārdu “hello”
+
+šajā piemērā arī ļot labi redzams tas kā strāda klases metodes.
+
+
