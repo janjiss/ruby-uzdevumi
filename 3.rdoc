@@ -21,7 +21,7 @@ Uzdevumā ir jāizveido klase, kurai padodot xml failu, tiek izvilkta temperatū
 
 <b>Pielikt klāt parseri sekojošā veidā:</b>
 
-  inlcude "nokogiri"
+  require "nokogiri"
 
 <b>Faili ko izmantot:</b>
 
