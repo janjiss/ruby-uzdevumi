@@ -1,0 +1,28 @@
+= Uzdevums 2: XML Parsēšana
+
+== Uzedvuma mērķis
+
+Uzdevumā ir jāizveido klase, kurai padodot xml failu, tiek izvilkta temperatūra un mitrums (Humidity)
+
+<b>Ieejas dati</b> : faila nosaukums
+
+<b>Izejas dati</b> : Klasei jāatgriež sekojošās vērtības ar sekojošiem atribūtiem:
+
+.humidty  - Gaisa mitrums
+
+.temperature - Gaisa temeperatūra celsiojos
+
+
+== Paskaidrojumi:
+
+<b>XML parseris, ko izmantot:</b>
+
+  gem install nokogiri
+
+<b>Pielikt klāt parseri sekojošā veidā:</b>
+
+  inlcude "nokogiri"
+
+<b>Šais uzdevums ir pabeigts, kad visi testi pabeidz Palaist testu var:</b>
+
+  rspec weather_spec.rb
