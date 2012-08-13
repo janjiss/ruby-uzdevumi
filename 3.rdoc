@@ -1,4 +1,4 @@
-= Uzdevums 2: XML Parsēšana
+= Uzdevums 3: XML Parsēšana
 
 == Uzedvuma mērķis
 
