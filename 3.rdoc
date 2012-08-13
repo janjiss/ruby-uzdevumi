@@ -23,6 +23,11 @@ Uzdevumā ir jāizveido klase, kurai padodot xml failu, tiek izvilkta temperatū
 
   inlcude "nokogiri"
 
+<b>Faili ko izmantot:</b>
+
+  weather_kuldiga.xml
+  weather_venstpils.xml
+
 <b>Šis uzdevums ir pabeigts, kad visi testi ir pabeigti. Testus var palaist ar šo komandu</b>
 
   rspec weather_spec.rb
